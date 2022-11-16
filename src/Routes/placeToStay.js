@@ -64,7 +64,7 @@ function PlaceToStay() {
                 <div className={open ? 'headerright' : 'headerright headernone'}>
                     <nav>
                         <ul>
-                            <li><a>Home</a></li>
+                            <li><Link to='/' style={{textDecoration:'none', color:'inherit'}}>Home</Link></li>
                             <li><Link to='/placetostay' style={{textDecoration: 'none', color:'inherit'}}>Place to stay</Link></li>
                             <li><a>NFTs</a></li>
                             <li><a>Community</a></li>
