@@ -1,0 +1,113 @@
+
+
+.container {
+    width: clamp(200px, 260px, 292px);
+    
+    padding: 16px;
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.aboutleft img {
+    width: 80px;
+  }
+
+.image-container {
+    width: 100%;
+    height: 265px;
+    border-radius: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.aboutnft {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutleft p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 10px;
+    color: rgba(67, 67, 67, 1);
+}
+
+.aboutleft p:nth-child(2) {
+    margin-bottom: 8px;
+}
+
+
+.aboutright p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    
+}
+
+.aboutright p:first-child {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        width: clamp(200px, 250px, 250px);
+    }
+    .image-container {
+        width: 100%;
+        height: 250px;
+        border-radius: 15px;
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+    
+    .aboutnft {
+        margin-top: 14px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aboutleft p, .aboutright p {
+        font-size: 11px;
+    }
+
+
+}
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: clamp(200px, 250px, 250px);
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 630px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .aboutleft img {
+      width: 80px;
+    }
+}

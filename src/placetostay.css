@@ -1,0 +1,158 @@
+
+
+.placepage {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background-color: #ffffff;
+    padding-top: 47px;
+    position: relative;
+}
+
+.placelist {
+    width: 86%;
+    margin: 115px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.placeleft {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    line-height: 48px;
+   
+   
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.placeleft p {
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.location {
+    margin-right: 63px;
+    height: 24px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    width: 160px;
+    padding-left: 12px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    padding: 12px;
+    height: 48px;
+    border-radius: 8px;
+    border:1px solid #B4B4B4;
+    outline: none;
+    cursor: pointer;
+}
+
+.location .cnt {
+    width: 100%;
+    display: inline-block;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+
+}
+
+.location .cnt span {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.location .cnt img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.bottomSect {
+    min-height: 963px;
+    margin-top: 64px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 39px 0 53px 0;
+}
+
+
+.bottomSectNfts{
+    width: 86%;
+    min-height: 768px;
+    margin: 43px auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    justify-content: space-between;
+    grid-gap:24px;
+    
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .placeleft p {
+        font-size: 13px;
+    }
+
+    .location {
+        margin-right:20px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:768px) {
+    .placelist {
+        width: 86%;
+        margin: 115px auto auto auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+
+    .placeleft {
+        width: 100%;
+    }
+
+    .location {
+        font-size: 13px;
+        margin:20px auto 40px auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .placelist {
+        width: 86%;
+        margin: 100px auto auto auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .placeleft {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .location {
+        font-size: 15px;
+        margin:20px auto 40px auto;
+    }
+}
+
